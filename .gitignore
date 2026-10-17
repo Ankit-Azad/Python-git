@@ -1,0 +1,48 @@
+# === Python / Virtual Environments ===
+venv/
+.venv/
+env/
+.env/
+ENV/
+pyvenv.cfg
+include/
+lib/
+share/
+
+# === Python Cache and Compiled Files ===
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# === Environment Variables / Secrets (NEVER COMMIT THESE) ===
+.env
+.env.local
+.env.*.local
+
+# === Operating System Junk ===
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Ehthumbs.db
+desktop.ini
+
+# === IDEs and Code Editors ===
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
